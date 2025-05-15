@@ -5,13 +5,15 @@ import {
     Slide,
     ButtonBack,
     ButtonNext
-  } from 'pure-react-carousel';
+} from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import { styles } from './styles';
 
+interface CarouselProps {
+    componentList: React.ComponentType[];
+}
 
-// takes in components and the components should have no props
-const Carousel = ({ componentList }) => {
+const Carousel: React.FC<CarouselProps> = ({ componentList }) => {
     return (
         <CarouselProvider 
             naturalSlideWidth={window.innerWidth} 
