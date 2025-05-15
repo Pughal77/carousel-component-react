@@ -8,7 +8,7 @@ import {
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import { styles } from './styles';
-
+// Components in componentList should ideally not have any props. Use a wrapper component to pass props if you have to (sort of like currying when it comes to lambda functions)
 interface CarouselProps {
     componentList: React.ComponentType[];
 }
@@ -24,7 +24,11 @@ const Carousel: React.FC<CarouselProps> = ({ componentList }) => {
                 <Slider>
                     {componentList.map((Component, index) => (
                         <Slide key={index} index={index}>
-                            <Component />
+                            {/* Render the component here */}
+                            {/* Take note of the div styling here. If this is not desirable can always overide the style with your own specified in your component */}
+                            <div style={styles.slideContent}>
+                                <Component />
+                            </div>
                         </Slide>
                     ))}
                 </Slider>
