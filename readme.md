@@ -5,7 +5,7 @@ A simple React component that allows sequential traversal through a list of comp
 ## Example Usage
 
 ```jsx
-import { StepByStepTraversal } from './StepByStepTraversal';
+import { Carousel } from 'carousel-component-react';
 import { ComponentOne } from './components/ComponentOne';
 import { ComponentTwo } from './components/ComponentTwo';
 import { ComponentThree } from './components/ComponentThree';
@@ -18,7 +18,7 @@ const componentList = [
 
 function App() {
     return (
-        <StepByStepTraversal components={componentList} />
+        <Carousel components={componentList} />
     );
 }
 ```
