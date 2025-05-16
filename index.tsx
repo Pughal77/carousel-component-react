@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { styles } from './styles';
-import Carousel from './carousel';
+import { styles } from './src/styles';
+import Carousel from './src/carousel';
 
 // Example components - replace these with your actual components
 const Component1: React.FC = () => <div>Slide 1</div>;
