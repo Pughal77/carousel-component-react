@@ -42,6 +42,6 @@ npx vite
 
 ## Important Notes
 
-- Components passed to the `StepByStepTraversal` should be simple components without props
+- Components passed to the `StepByStepTraversal` should be simple components without props. Use currying or other methods to circumvent using a component with props
 - Navigation controls are provided by pure-react-carousell library
 - The component handles state management internally
