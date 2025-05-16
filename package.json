@@ -1,8 +1,13 @@
 {
   "name": "carousel-component-react",
-  "description": "A simple carousel component built with React and Vite.",
+  "description": "A simple carousel component built with React and Vite. Uses pure-react-carousel for the carousel functionality.",
   "author": "Raijinshounen",
   "license": "MIT",
+  "homepage": "https://github.com/Pughal77/carousel-component-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pughal77/carousel-component-react.git"
+  },
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/carousel-component.umd.js",
