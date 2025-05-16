@@ -1,6 +1,8 @@
 {
   "name": "carousel-component-react",
-  "private": true,
+  "description": "A simple carousel component built with React and Vite.",
+  "author": "Raijinshounen",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/carousel-component.umd.js",
