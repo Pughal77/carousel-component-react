@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/Pughal77/carousel-component-react.git"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./dist/carousel-component.umd.js",
   "module": "./dist/carousel-component.es.js",
